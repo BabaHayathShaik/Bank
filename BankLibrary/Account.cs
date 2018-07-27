@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Bank
+namespace BankLibrary
 {
     public class Account
     {
@@ -8,6 +8,10 @@ namespace Bank
 
         private string CustomerName;
 
+        private DateTime DateOfBirth;
 
+        private int Balance;
     }
+
+
 }
